@@ -1,0 +1,79 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvContacto"
+    style="@style/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="12dp">
+
+    <GridLayout
+        android:id="@+id/gl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px">
+
+        <TextView
+            android:id="@+id/tvN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10px"
+            android:background="#D195F0"
+            android:text="@string/nombre" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="10px"
+            android:background="#D195F0" />
+
+        <TextView
+            android:id="@+id/tvT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="10px"
+            android:layout_marginRight="20px"
+            android:background="#EE669A"
+            android:text="@string/telefono" />
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="10px"
+            android:background="#EE669A" />
+
+        <TextView
+            android:id="@+id/tvC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="10px"
+            android:layout_marginRight="20px"
+            android:background="#F7B866"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/tvCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="10px"
+            android:background="#F7B866" />
+    </GridLayout>
+</androidx.cardview.widget.CardView>

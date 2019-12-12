@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PMDMO: Enviar Correo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nombre">Nombre:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="buscar">Buscar Contacto</string>
+    <string name="email">Email:</string>
+
+    <string name="enviar_correo">Enviar correo</string>
+    <string name="necesito">Lo necesito</string>
+    <string name="tituloExplicacion">Advertencia</string>
+    <string name="mensajeExplicacion">Si no proporcionas permiso para leer contactos no podemos mostrar los correos.</string>
+
+</resources>
